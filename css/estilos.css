@@ -1,6 +1,7 @@
-.logo {
-    position: relative;
-    left: 500px;
+header {
+    display: flex;
+   align-items: center;
+   justify-content: center;
 }
 .menu ul {
     left: 440px;
