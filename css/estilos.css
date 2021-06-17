@@ -71,14 +71,72 @@ footer {
     text-align: center;
 }
 
+.contact {
+    margin-top: 40px;
+    font-size: 25px;
+    font-weight: 400px;
+    letter-spacing: 1px;
+
+}
+.email {
+    font-size: 20px;
+    padding-bottom: 5px;
+
+}
+
+hr.solid {
+    border-color: grey;
+    width: 23.5%;
+}
 .contact a {
+    font-size: small;
     color: white;
 }
 
-.footlogo {
+.contact a:hover {
+    color: rgb(189, 55, 0);
 
-    padding-top: 60px;
+}
+
+.button {
+    margin-top: 30px;
+    padding: 7px 15px;
+}
+
+.politica ul {
+    margin-top: 50px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.politica li {
+    padding: 0 10px;
+}
+
+.politica a{
+    color: white;
+}
+
+.politica a:hover {
+    color: rgb(189, 55, 0);
+
+}
+
+.footlogo img{
+    width: 200px;
+    height: auto;
+    padding-top: 40px;
 }
 .footlogo p {
     margin: 0 auto;
+    font-size: small;
+}
+
+.copy {
+    font-size: small;
+    margin-top: 45px;
+    padding-bottom: 60px;
 }
