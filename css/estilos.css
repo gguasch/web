@@ -1,6 +1,4 @@
-html {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
+
 @media (min-width: 779px) {
     .logo {
         margin-left: 420px;
@@ -18,6 +16,24 @@ html {
     .menu li {
         display:block;
         padding: 0 20px;
+    }
+
+    .banner img {
+        height: 500px;
+        width: auto;
+        margin-left: 150px;
+        margin-right: auto;
+    }
+
+    .banner-2 p {
+        align-items: center;
+        border-spacing: 0px;
+        font-family: 'Alegreya', serif;
+        margin-top: 40px;
+        margin-bottom: 0px;
+        padding-left: 420px;
+        font-size: 4em;
+        color: white;
     }
 }
 @media (max-width: 778px) {
@@ -38,6 +54,25 @@ html {
         display: flex;
         list-style: none;
         padding: 0;
+    }
+
+    .banner img {
+        max-width: 50%;
+        height: auto;
+    }
+
+    .banner-2 {
+        max-width: 20%;
+    }
+
+    .banner-2 p {
+        align-items: center;
+        border-spacing: 0px;
+        font-family: 'Alegreya', serif;
+        margin-top: 40px;
+        margin-bottom: 0px;
+        font-size: 4em;
+        color: white;
     }
 }
 
@@ -140,3 +175,51 @@ hr.solid {
     margin-top: 45px;
     padding-bottom: 60px;
 }
+
+.banner {
+    background-color: black;
+    color: white;
+    display: flex;
+
+}
+
+
+
+.banner-1 {
+    border: 1px wheat solid;
+}
+
+
+
+.banner-2 h2 {
+    font-family: 'Alegreya', serif;
+    padding-left: 420px;
+    color: white;
+    font-weight: 400;
+    font-size: 1.9em;
+}
+
+/*.banner p {
+    font-family: 'Alegreya', serif;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    padding-left: 420px;
+    font-size: 4em;
+    color: white;
+}
+
+.banner h2 {
+    font-family: 'Alegreya', serif;
+    padding-left: 420px;
+    color: white;
+    margin-top: -35px;
+    font-weight: 400;
+    font-size: 1.9em;
+}
+
+.banner img {
+    height: 500px;
+    width: auto;
+    float: right;
+    padding-right: 300px;
+}*/
