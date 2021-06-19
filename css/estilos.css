@@ -62,6 +62,21 @@
     .ltitle p {
         font-size: 18px;
     }
+
+    .marsbox1 {
+        margin-left: 350px;
+        margin-right: 100px;
+    }
+
+    .marsbox2 {
+        margin-right: 350px;
+    }
+
+    .container4 div {
+        margin-top: 70px;
+        
+    
+    }
 }
 @media (max-width: 778px) {
 
@@ -286,4 +301,42 @@ main {
     padding-left: 15px;
 }
 
+.container4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 
+
+
+}
+
+.marsbox1 {
+    border: 1px black solid;
+    flex: 1;
+    min-width: 200px;
+
+    height: 900px;
+}
+
+.marsbox2 {
+    border: 1px black solid;
+    flex: 3;
+    min-width: 200px;
+}
+
+.marsbox1 p {
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.marsbox1 ul {
+    list-style: none;
+    padding: 0px;
+    
+
+}
+
+.marsbox1 a {
+    color: rgb(189, 55, 0);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
