@@ -18,11 +18,20 @@
         padding: 0 20px;
     }
 
+    .banner {
+        background-color: black;
+        color: white;
+        position: relative;
+        padding-bottom: 600px;
+    
+    }
+
     .banner img {
-        height: 500px;
-        width: auto;
-        margin-left: 150px;
-        margin-right: auto;
+        max-width: 600px;
+        max-height: 600px;
+        position: absolute;
+        top: 0 px;
+        right: 300px;
     }
 
     .banner-2 p {
@@ -35,9 +44,28 @@
         font-size: 4em;
         color: white;
     }
+
+    
+    .banner-2 h2 {
+        font-family: 'Alegreya', serif;
+        padding-left: 420px;
+        color: white;
+        font-weight: 400;
+        font-size: 1.9em;
+    }
+
+    .ltitle {
+        margin-left: 400px;
+        
+    }
+
+    .ltitle p {
+        font-size: 18px;
+    }
 }
 @media (max-width: 778px) {
 
+    
     .logo {
         display: block;
         margin: auto;
@@ -56,24 +84,49 @@
         padding: 0;
     }
 
+    
+    .banner {
+            background-color: black;
+            color: white;
+            position: relative;
+            padding-bottom: 250px;
+        
+        }
+    
     .banner img {
-        max-width: 50%;
-        height: auto;
+        max-width: 200px !important;
+        max-height: 200px !important;
+        position: absolute;
+        right: 10px;
+        top: 40px;
     }
 
-    .banner-2 {
-        max-width: 20%;
-    }
 
     .banner-2 p {
         align-items: center;
         border-spacing: 0px;
         font-family: 'Alegreya', serif;
-        margin-top: 40px;
-        margin-bottom: 0px;
-        font-size: 4em;
+        font-size: 2em;
         color: white;
+        font-weight: 400;
+        margin: 5px;
+        margin-left: 10px;
     }
+
+    .banner-2 h2 {
+        font-family: 'Alegreya', serif;
+        color: white;
+        font-weight: 400;
+        font-size: 1em;
+        margin-left: 10px;
+        margin-top: -60px;
+    }
+
+    .ltitle {
+        margin-left: 10px;
+    }
+
+
 }
 
 a{
@@ -176,50 +229,61 @@ hr.solid {
     padding-bottom: 60px;
 }
 
-.banner {
-    background-color: black;
-    color: white;
-    display: flex;
-
+.banner-2 p {
+    z-index: 100;
+    position: absolute;
+    top: 15px;
 }
-
-
-
-.banner-1 {
-    border: 1px wheat solid;
-}
-
 
 
 .banner-2 h2 {
-    font-family: 'Alegreya', serif;
-    padding-left: 420px;
-    color: white;
-    font-weight: 400;
-    font-size: 1.9em;
+    z-index: 100;
+    position: absolute;
+    top:140px;
 }
 
-/*.banner p {
-    font-family: 'Alegreya', serif;
-    margin-top: 40px;
-    margin-bottom: 0px;
-    padding-left: 420px;
-    font-size: 4em;
-    color: white;
+body {
+    margin: 0px;
+    padding: 0px;
 }
 
-.banner h2 {
+main {
     font-family: 'Alegreya', serif;
-    padding-left: 420px;
-    color: white;
-    margin-top: -35px;
-    font-weight: 400;
-    font-size: 1.9em;
 }
 
-.banner img {
-    height: 500px;
-    width: auto;
-    float: right;
-    padding-right: 300px;
-}*/
+
+.container1, .container2, .container3 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.container1 div, .container2 div, .container3 div {
+    max-width: 370px;
+    height: 700px;
+    min-width: 365px;
+
+    
+}
+
+.box1, .box3, .box5, .box7, .box9 {
+    background-color: rgba(0,0,0,0.1);
+}
+
+.box1 img, .box2 img, .box3 img, .box4 img, .box5 img, .box6 img, .box7 img, .box8 img, .box9 img  {
+    max-width: 100%;
+    max-height: 100%;
+   
+}
+
+.titlebox {
+    color: rgb(189, 55, 0);
+    padding-left: 15px;;
+}
+
+.contentbox {
+    padding-left: 15px;
+}
+
+
