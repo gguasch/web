@@ -251,16 +251,12 @@
     }
     .marsbox1 {
         flex: 1;
-        min-width: 200px;
-
+        min-width: 300px;
         order: 2;
+        max-width: 100%;
     }
 
-    .container4 div {
-        margin-top: 0px;
-        
-    
-    }
+
     .container5 {
         display: block;
         flex-wrap: wrap;
@@ -511,9 +507,6 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
-
-
 }
 
 ul {
