@@ -68,6 +68,12 @@
         margin-right: 100px;
     }
 
+    .marsbox1 {
+        flex: 1;
+        min-width: 200px;
+        height: 900px;
+    }
+
     .marsbox2 {
         margin-right: 350px;
     }
@@ -76,6 +82,113 @@
         margin-top: 70px;
         
     
+    }
+
+    .container5 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 1500px;
+        margin-bottom: 0px;
+    }
+
+    .container5 div {
+    
+        margin-top: 20px;
+        height: 213px;
+        background-color: rgba(0,0,0,0.1);
+    
+    }
+
+    .box10 {
+    flex: 1;
+    margin-left: 420px;
+    }
+
+    .box11{
+        flex: 3;
+        min-width: 500px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .box12 {
+        flex: 1;
+
+    }
+
+    .ciencia {
+        margin-top: 60px;
+        margin-left: 420px;
+    }
+
+    .box10 img, .box12 img {
+        max-width: 100%;
+    }
+
+    .box11 p {
+        font-size: 18px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .box10 h1 {
+        font-size: 35px;
+        margin-left: 10px;
+
+    }
+
+    .box11 hr {
+        width: 20px;
+        
+        border: orange solid;
+        margin: 0;
+        margin-left: 20px;
+        margin-right: 2px;
+        display: inline-block;
+    }
+
+    .container6 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-left: 410px;
+        padding-right: 410px;
+        margin-bottom: 30px;
+    }
+
+    .container6 div {
+        max-width: 500px;
+        max-height: 380px;
+
+    }
+
+    .box13, .box14 {
+        flex:1;
+        padding-bottom: 5px;
+        background-color: rgba(0,0,0,0.1);
+    }
+
+
+
+    .iframe-container {
+        position: relative;
+        width: 100%;
+        padding-bottom: 56.25%;
+    }
+
+    .video {
+        position: absolute;
+        top:0;
+        left:0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+
+    .container6 p {
+        text-align: center;
+        font-size: 17px;
     }
 }
 @media (max-width: 778px) {
@@ -136,12 +249,104 @@
         margin-left: 10px;
         margin-top: -60px;
     }
+    .marsbox1 {
+        flex: 1;
+        min-width: 200px;
 
-    .ltitle {
-        margin-left: 10px;
+        order: 2;
     }
 
+    .container4 div {
+        margin-top: 0px;
+        
+    
+    }
+    .container5 {
+        display: block;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    
+    .box10, .box11, .box12 {
+        background-color: rgba(0,0,0,0.1);
+    }
+    
+    .box10 {
+        flex: 1;
+    
+    }
+    
+    .box11{
+        flex: 1;
+    
+    }
+    
+    .box12 {
+        flex: 1;
+        max-height: 370px;
+    
+    }
+    
+    .box12 img {
+        max-width: 100%;
+    }
+    
+    .box11 p {
+        font-size: 18px;
+        padding-left: 10px;
+ 
+        margin: 0;
+    }
+    
+    .box10 h1 {
+        font-size: 35px;
+        margin-left: 10px;
+        margin: 0;
+        max-width: 200px;
+    }
+    
+    .box11 hr {
+        width: 20px;
+        border: orange solid;
+        margin: 0;
+        display: inline-block;
+    }
+    .container6 {
+        display: block;
+        flex-wrap: wrap;
+        justify-content: space-between;
 
+    }
+    
+    .container6 div {
+
+        max-height: 380px;
+    
+    }
+    
+    .box13, .box14 {
+        flex:1;
+        padding-bottom: 5px;
+        background-color: rgba(0,0,0,0.1);
+    }
+    
+    
+    
+    .iframe-container {
+        position: relative;
+        width: 100%;
+        padding-bottom: 56.25%;
+    }
+    
+    .video {
+        position: absolute;
+        top:0;
+        left:0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
 }
 
 a{
@@ -164,6 +369,7 @@ footer {
     background-color: black;
     text-align: center;
     color:white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .email {
@@ -310,16 +516,11 @@ main {
 
 }
 
-.marsbox1 {
-    border: 1px black solid;
-    flex: 1;
-    min-width: 200px;
-
-    height: 900px;
+ul {
+    list-style-type: square;
 }
 
 .marsbox2 {
-    border: 1px black solid;
     flex: 3;
     min-width: 200px;
 }
@@ -339,4 +540,13 @@ main {
 .marsbox1 a {
     color: rgb(189, 55, 0);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.marsbox1 figcaption {
+    justify-content: center;
+    text-align: center;
+}
+
+iframe {
+    align-self: center;
 }
